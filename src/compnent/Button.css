@@ -1,0 +1,16 @@
+.down{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    .down{
+     position: relative;
+     top: 100px;
+     left: -130px;
+    scale: 1;
+    }
+}

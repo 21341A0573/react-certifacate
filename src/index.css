@@ -1,0 +1,42 @@
+.M1{
+
+position: relative;
+top: 3px;
+left:350px;
+
+}
+
+.left{
+    position: relative;
+    top: 70px;
+}
+
+.rotate{
+    position: relative;
+    top: 140px;
+}
+
+.total{
+
+    position: relative;
+    top: 60px;
+    left: 1000px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px dotted var(--accent);
+    pointer-events: none;
+    border-color:3px solid red;
+    color: red;
+  }
+
+  .oc{
+    width: 150;
+    height: 150;
+    background-color: black;
+    font-size: 100000000000000000px;
+  }
+  

@@ -1,0 +1,26 @@
+.back{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.preview{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    border-radius: 15%;
+    box-shadow: 3px 4px 4px black;
+    background-color: rgb(32, 193, 131);
+}
+
+@media (max-width: 480px) {
+    .back{
+     position: relative;
+     top: 100px;
+    left: 60px;
+    scale: 1;
+    }
+}
